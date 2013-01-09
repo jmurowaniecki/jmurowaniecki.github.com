@@ -25,11 +25,7 @@
 				"location"	: "Unilasalle"
 			}
 		],
-		"skills" : [
-			{
-				"technology" : [ {"Linux" : ["Apache", "nginx", "DNS Bind9", "Samba", "Subversion"]}, { "SQL": ["MySQL", "postgresql", "ms sql server"]}, {"languages" : ["clipper", "advpl", "c", "c++", "php", "python", "ruby", "javascript", "html", "css", "visual basic 6.0"] }],
-			}
-		],
+		"skills" : [ "Apache", "nginx", "DNS Bind9", "Samba", "Subversion", "MySQL", "postgresql", "ms sql server", "clipper", "advpl", "c", "c++", "php", "python", "ruby", "javascript", "html", "css", "visual basic 6.0"],
 		"work experience" : [
 			{
 				"employer" : "Freelance",
@@ -236,7 +232,7 @@
 						"description" : ""
 					}
 				]
-			}
+			},
 			{
 				"employer" : "JPC",
 				"season" : {

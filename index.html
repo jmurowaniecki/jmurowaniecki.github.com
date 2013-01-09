@@ -37,13 +37,26 @@
 					<p>If you have some development skills and like some weird codes I think you'll like my resume and the way it's delivered.</p>
 
 					<h4>If you're using NodeJS try to run this code</h4>
-					<pre><code>$ node
-var http = require('http'), options = { host: 'john.manydevs.com', port: 80, path: '/about.json' };
+					<pre><code>// NodeJS
 
-http.get(options, function(res) { console.log("Got response: " + res.statusCode); }).on('error', function(e) { console.log("Got error: " + e.message); });
+var http = require('http'), about, buffer = '', options = {
+    host: 'john.manydevs.com',
+    port: 80,
+    path: '/about.json'
+};
+
+http.get(options).on('response', function (response) {
+    response.on('data', function(data) {
+        console.log(buffer += data.toString());
+    });
+});
+
+about = JSON.parse(buffer);
+
+// continue..
 </code></pre>
 
-					<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+					<p>I'm preparing something different for you if you doesn't have NodeJS installed. Maybe something that runs on your navigator / console.</p>
 
 					<h3>Why Engrish?</h3>
 
