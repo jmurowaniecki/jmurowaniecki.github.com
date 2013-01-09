@@ -1,0 +1,131 @@
+{
+	"nickname"		: "John Murowaniecki",
+	"name"			: "João Paulo Murowaniecki Sant Anna",
+	"title"			: "developer",
+	"subtitle"		: "hardcore linux evangelist",
+	"marital status": "married",
+	"contact"	: {
+		"city"		: "Elrodado do Sul",
+		"phone"		: "+55 51 81540646",
+		"email"		: "jmurowaniecki@gmail.com",
+		"github"	: "http://github.com/jmurowaniecki",
+		"twitter"	: "http://twitter.com/jmurowaniecki",
+		"facebook"	: "http://facebook.com/jmurowaniecki"
+	},
+	"knowledge"		: {
+		"education"	: [
+			{
+				"title"		: "Psychology",
+				"status"	: "attending",
+				"location"	: "Unisinos"
+			},
+			{
+				"title"		: "Computer Science",
+				"status"	: "locked",
+				"location"	: "Unilasalle"
+			}
+		],
+		"skills" : [
+			{
+				"technology" : [ {"Linux" : ["Apache", "nginx", "DNS Bind9", "Samba", "Subversion"]}, { "SQL": ["MySQL", "postgresql", "ms sql server"]}, {"languages" : ["clipper", "advpl", "c", "c++", "php", "python", "ruby", "javascript", "html", "css", "visual basic 6.0"] }],
+			}
+		],
+		"work experience" : [
+			{
+				"employer" : "Freelance",
+				"projects" : [
+					{
+						"name" : "Cecadi",
+						"with" : "Guilherme Medeiros",
+						"technology" : [ "PHP", "MySQL", "OpenCart" ],
+						"link" : "http://www.cecadi.com.br",
+						"season" : "may/2012",
+						"description" : "Customization of budget request forms, admin panel and sending e-mails."
+					},
+					{
+						"name" : "Razão RS",
+						"with" : "Guilherme Medeiros",
+						"technology" : [ "PHP", "MySQL", "CodeIgniter", "DataMapper" ],
+						"link" : "http://www.razaors.com.br",
+						"season" : "jun/2012",
+						"description" : "structure and data modeling, with admin panel script for importing calendars."
+					}
+				]
+			},
+			{
+				"employer" : "Technological Startup WebGlobal",
+				"projects" : [
+					{
+						"name" : "WebArCondicionado",
+						"technology" : [ "PHP", "MySQL", "Wordpress" ],
+						"link" : "http://www.webarcondicionado.com.br",
+						"season" : {
+							"since" : "jul/2012",
+							"until" : "now"
+						},
+						"description" : ""
+					},
+					{
+						"name" : "WebArCondicionado 2.0",
+						"technology" : [ "PHP", "MySQL", "CodeIgniter", "DataMapper", "Wordpress" ],
+						"link" : "http://www.webarcondicionado.com.br",
+						"season" : {
+							"since" : "aug/2012",
+							"until" : "now"
+						},
+						"description" : ""
+					}
+				]
+			},
+			{
+				"employer" : "Onze.me",
+				"projects" : [
+					{
+						"name" : "Mememaker 2.0",
+						"technology" : [ "PHP", "MySQL", "CodeIgniter" ],
+						"link" : "http://www.mememaker.com.br",
+						"season" : {
+							"since" : "mar/2012",
+							"until" : "may/2012"
+						},
+						"description" : ""
+					},
+					{
+						"name" : "Meu Moinhos",
+						"technology" : [ "PHP", "MySQL", "CodeIgniter", "DataMapper", "Wordpress", "API Instagram" ],
+						"link" : "http://www.meumoinhos.com.br",
+						"season" : {
+							"since" : "jun/2012",
+							"until" : "jun/2012"
+						},
+						"description" : ""
+					},
+					{
+						"name" : "Dialogos com Porto Alegre",
+						"technology" : [ "PHP", "MySQL", "CodeIgniter", "DataMapper" ],
+						"link" : "http://www.dialogoscomportoalegre.com.br",
+						"season" : {
+							"since" : "jun/2012",
+							"until" : "jul/2012"
+						},
+						"description" : ""
+					}
+				]
+			}
+			{Box3 nov/10 à mar/2012. PHP (CodeIgniter), MySQL, Linux.}
+			{JPC abril/10 à nov/10. AdvPL, PHP, Ruby (Rails/Redmine), MySQL, PostgreSQL, SQL Server, Linux.}
+			{Divex fev/10 à mar/10. PHP (CodeIgniter), ASP, MySQL, SQL Server.}
+			{Núcleo49 out/09 à dez/09. PHP (CodeIgniter), MySQL.}
+			{BiTS ago/09 à out/09. PHP (CodeIgniter), MySQL.}
+			{Reweb dez/07 à ago/09. Visual Basic 6.0, PHP (CodeIgniter), ASP, MySQL, PostgreSQL.}
+			{UNILASALLE / IGTec set/05 à ago/06. Linux, PHP, MySQL, PostgreSQL.}
+			{UNILASALLE / Helpdesk mar/05 à set/05. Suporte Windows, Linux.}
+			{3o Batalhão Suprimentos jul/03 à fev/05. Soldado Auxiliar QR, Classe, / QM 1174.}
+			{Digital TI set/00 à nov/00. Visual Basic 6.0, Access.}
+		]
+	}
+}
+
+Área de interesse
+Participação em projetos inovadores e criativos, que propiciem desenvolvimento
+humano e tecnológico em ambientes inovadores, jovens e descontraídos.
