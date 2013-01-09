@@ -54,40 +54,36 @@
 			},
 			{
 				"employer" : "Technological Startup WebGlobal",
+				"season" : {
+					"since" : "jul/2012",
+					"until" : "now"
+				},
 				"projects" : [
 					{
 						"name" : "WebArCondicionado",
 						"technology" : [ "PHP", "MySQL", "Wordpress" ],
 						"link" : "http://www.webarcondicionado.com.br",
-						"season" : {
-							"since" : "jul/2012",
-							"until" : "now"
-						},
 						"description" : ""
 					},
 					{
 						"name" : "WebArCondicionado 2.0",
 						"technology" : [ "PHP", "MySQL", "CodeIgniter", "DataMapper", "Wordpress" ],
 						"link" : "http://www.webarcondicionado.com.br",
-						"season" : {
-							"since" : "aug/2012",
-							"until" : "now"
-						},
 						"description" : ""
 					}
 				]
 			},
 			{
 				"employer" : "Onze.me",
+				"season" : {
+					"since" : "mar/2012",
+					"until" : "jul/2012"
+				},
 				"projects" : [
 					{
 						"name" : "Mememaker 2.0",
 						"technology" : [ "PHP", "MySQL", "CodeIgniter" ],
 						"link" : "http://www.mememaker.com.br",
-						"season" : {
-							"since" : "mar/2012",
-							"until" : "may/2012"
-						},
 						"description" : ""
 					},
 					{
@@ -111,21 +107,217 @@
 						"description" : ""
 					}
 				]
+			},
+			{
+				"employer" : "Box3",
+				"season" : {
+					"since" : "nov/2010",
+					"until" : "mar/2012"
+				},
+				"projects" : [
+					{
+						"name" : "Pinkcats",
+						"technology" : [ "PHP", "MySQL", "CodeIgniter" ],
+						"link" : "http://www.mememaker.com.br",
+						"season" : {
+							"since" : "mar/2012",
+							"until" : "may/2012"
+						},
+						"description" : ""
+					},
+					{
+						"name" : "Tok",
+						"technology" : [ "PHP", "MySQL", "CodeIgniter", "DataMapper", "Wordpress", "API Instagram" ],
+						"link" : "http://www.meumoinhos.com.br",
+						"season" : {
+							"since" : "jun/2012",
+							"until" : "jun/2012"
+						},
+						"description" : ""
+					},
+					{
+						"name" : "Bodystore",
+						"technology" : [ "PHP", "MySQL", "CodeIgniter", "DataMapper", "Wordpress", "API Instagram" ],
+						"link" : "http://www.meumoinhos.com.br",
+						"season" : {
+							"since" : "jun/2012",
+							"until" : "jun/2012"
+						},
+						"description" : ""
+					},
+					{
+						"name" : "Exorcismos Urbanos",
+						"technology" : [ "PHP", "MySQL", "CodeIgniter", "DataMapper", "Wordpress", "API Instagram" ],
+						"link" : "http://www.meumoinhos.com.br",
+						"season" : {
+							"since" : "jun/2012",
+							"until" : "jun/2012"
+						},
+						"description" : ""
+					},
+					{
+						"name" : "8a. Bienal do Mercosul",
+						"technology" : [ "PHP", "MySQL", "CodeIgniter", "DataMapper", "Wordpress", "API Instagram" ],
+						"link" : "http://www.meumoinhos.com.br",
+						"season" : {
+							"since" : "jun/2012",
+							"until" : "jun/2012"
+						},
+						"description" : ""
+					},
+					{
+						"name" : "Casa M da 8a. Bienal do Mercosul",
+						"technology" : [ "PHP", "MySQL", "CodeIgniter", "DataMapper", "Wordpress", "API Instagram" ],
+						"link" : "http://www.meumoinhos.com.br",
+						"season" : {
+							"since" : "jun/2012",
+							"until" : "jun/2012"
+						},
+						"description" : ""
+					},
+					{
+						"name" : "8a. Bienal do Mercosul",
+						"technology" : [ "PHP", "MySQL", "CodeIgniter", "DataMapper", "Wordpress", "API Instagram" ],
+						"link" : "http://www.meumoinhos.com.br",
+						"season" : {
+							"since" : "jun/2012",
+							"until" : "jun/2012"
+						},
+						"description" : ""
+					},
+					{
+						"name" : "Dakota",
+						"technology" : [ "PHP", "MySQL", "CodeIgniter", "DataMapper", "Wordpress", "API Instagram" ],
+						"link" : "http://www.meumoinhos.com.br",
+						"season" : {
+							"since" : "jun/2012",
+							"until" : "jun/2012"
+						},
+						"description" : ""
+					},
+					{
+						"name" : "Extreme Days",
+						"technology" : [ "PHP", "MySQL", "CodeIgniter", "DataMapper", "Wordpress", "API Instagram" ],
+						"link" : "http://www.meumoinhos.com.br",
+						"season" : {
+							"since" : "jun/2012",
+							"until" : "jun/2012"
+						},
+						"description" : ""
+					},
+					{
+						"name" : "Agora Ágora",
+						"technology" : [ "PHP", "MySQL", "CodeIgniter", "DataMapper", "Wordpress", "API Instagram" ],
+						"link" : "http://www.meumoinhos.com.br",
+						"season" : {
+							"since" : "jun/2012",
+							"until" : "jun/2012"
+						},
+						"description" : ""
+					},
+					{
+						"name" : "Fruki",
+						"technology" : [ "PHP", "MySQL", "CodeIgniter", "DataMapper", "Wordpress", "API Instagram" ],
+						"link" : "http://www.meumoinhos.com.br",
+						"season" : {
+							"since" : "jun/2012",
+							"until" : "jun/2012"
+						},
+						"description" : ""
+					},
+					{
+						"name" : "Hype",
+						"technology" : [ "PHP", "MySQL", "CodeIgniter", "DataMapper" ],
+						"link" : "http://www.dialogoscomportoalegre.com.br",
+						"season" : {
+							"since" : "jun/2012",
+							"until" : "jul/2012"
+						},
+						"description" : ""
+					}
+				]
 			}
-			{Box3 nov/10 à mar/2012. PHP (CodeIgniter), MySQL, Linux.}
-			{JPC abril/10 à nov/10. AdvPL, PHP, Ruby (Rails/Redmine), MySQL, PostgreSQL, SQL Server, Linux.}
-			{Divex fev/10 à mar/10. PHP (CodeIgniter), ASP, MySQL, SQL Server.}
-			{Núcleo49 out/09 à dez/09. PHP (CodeIgniter), MySQL.}
-			{BiTS ago/09 à out/09. PHP (CodeIgniter), MySQL.}
-			{Reweb dez/07 à ago/09. Visual Basic 6.0, PHP (CodeIgniter), ASP, MySQL, PostgreSQL.}
-			{UNILASALLE / IGTec set/05 à ago/06. Linux, PHP, MySQL, PostgreSQL.}
-			{UNILASALLE / Helpdesk mar/05 à set/05. Suporte Windows, Linux.}
-			{3o Batalhão Suprimentos jul/03 à fev/05. Soldado Auxiliar QR, Classe, / QM 1174.}
-			{Digital TI set/00 à nov/00. Visual Basic 6.0, Access.}
+			{
+				"employer" : "JPC",
+				"season" : {
+					"since" : "apr/2010",
+					"until" : "nov/2010"
+				},
+				"technology" : [ "Totvs Protheus", "AdvPL", "PHP", "Ruby", "Redmine", "Rails", "MySQL", "PostgreSQL", "MS SQL Server", "Linux" ],
+				"tasks" : ""
+			},
+			{
+				"employer" : "Divex",
+				"season" : {
+					"since" : "fev/2010",
+					"until" : "mar/2010"
+				},
+				"technology" : [ "PHP", "CodeIgniter", "ASP", "MySQL", "MS SQL Server" ],
+				"tasks" : ""
+			},
+			{
+				"employer" : "Núcleo 49",
+				"season" : {
+					"since" : "oct/2010",
+					"until" : "dec/2010"
+				},
+				"technology" : [ "PHP", "CodeIgniter", "MySQL" ],
+				"tasks" : ""
+			},
+			{
+				"employer" : "Bits",
+				"season" : {
+					"since" : "aug/2009",
+					"until" : "oct/2009"
+				},
+				"technology" : [ "PHP", "CodeIgniter", "MySQL" ],
+				"tasks" : ""
+			},
+			{
+				"employer" : "Reweb",
+				"season" : {
+					"since" : "dec/2009",
+					"until" : "aug/2010"
+				},
+				"technology" : [ "PHP", "CodeIgniter", "MySQL", "Visual Basic 6.0", "ASP", "PostgreSQL" ],
+				"tasks" : ""
+			},
+			{
+				"employer" : "UNILASALLE IGTEC",
+				"season" : {
+					"since" : "sep/2005",
+					"until" : "aug/2006"
+				},
+				"technology" : [ "PHP", "MySQL", "PostgreSQL", "Linux", "MRTG" ],
+				"tasks" : ""
+			},
+			{
+				"employer" : "UNILASALLE Helpdesk",
+				"season" : {
+					"since" : "mar/2005",
+					"until" : "sep/2005"
+				},
+				"technology" : [ "MS Windows", "Linux" ],
+				"tasks" : "Support."
+			},
+			{
+				"employer" : "Exército Brasileiro - 3o. Batalhão de Suprimentos",
+				"season" : {
+					"since" : "jul/2003",
+					"until" : "fev/2005"
+				},
+				"technology" : [ "Clipper", "Ms Excel", "Visual Basic 6.0", "Ms SQL Server" ],
+				"tasks" : "Support."
+			},
+			{
+				"employer" : "Digital TI",
+				"season" : {
+					"since" : "sep/2000",
+					"until" : "nov/2000"
+				},
+				"technology" : [ "Visual Basic 6.0", "Ms SQL Server", "Ms Access" ],
+				"tasks" : "Developing and migration."
+			}
 		]
 	}
 }
-
-Área de interesse
-Participação em projetos inovadores e criativos, que propiciem desenvolvimento
-humano e tecnológico em ambientes inovadores, jovens e descontraídos.
