@@ -37,26 +37,27 @@
 					<p>If you have some development skills and like some weird codes I think you'll like my resume and the way it's delivered.</p>
 
 					<h4>If you're using NodeJS try to run this code</h4>
+					<p>Special thanks to Ricardo Tomasi (<a href="https://github.com/ricardobeat" class="user-mention">@ricardobeat</a>) for <a href="https://gist.github.com/354134a5c12bb74fe12f">all help</a>.</p>
 					<pre><code>// NodeJS
-
-var http = require('http'), about, buffer = '', options = {
+var buffer = '', about, options = {
     host: 'john.manydevs.com',
     port: 80,
     path: '/about.json'
-};
+}
 
-http.get(options).on('response', function (response) {
+require('http').get(options).on('response', function (response) {
     response.on('data', function(data) {
-        console.log(buffer += data.toString());
-    });
-});
-
-about = JSON.parse(buffer);
-
+        buffer += data.toString()
+    })
+    response.on('end', function(){
+        about = JSON.parse(buffer)
+        console.log(require('util').inspect(about, false, null))
+    })
+})
 // continue..
 </code></pre>
 
-					<p>I'm preparing something different for you if you doesn't have NodeJS installed. Maybe something that runs on your navigator / console.</p>
+					<p>I'm preparing something different for you that doesn't have NodeJS installed. Maybe something that runs on your navigator / console.</p>
 
 					<h3>Why Engrish?</h3>
 
