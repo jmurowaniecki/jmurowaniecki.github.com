@@ -1,0 +1,215 @@
+* {
+	font-family:Arial,Helvetica;
+	margin:0;
+	padding:0;
+	list-style:none;
+	vertical-align:baseline;
+	border:0;
+}
+
+img {
+	max-width:100%;
+	height:auto;
+}
+
+body {
+	font-size:100%;
+	padding:7em 0 0 0;
+}
+
+
+
+header, footer {
+	display:block;
+	width:100%;
+}
+
+header {
+	top:0;
+	height:5em;
+}
+
+footer {
+	margin-top:2em;
+}
+
+h1 {
+	font-size: 4.0em;
+	font-weight:900;
+	letter-spacing:-0.07em;
+	margin:0.3em;
+	left:0;
+	display:block;
+	width:auto;
+}
+
+a {
+	text-decoration: none;
+	color:#444;
+}
+a:hover {
+	color:#EFEFEF;
+}
+
+.grid_3 {
+	width:33%;
+	display:block;
+	float:left;
+}
+
+.align_left { text-align: left; }
+.align_middle { text-align: center; }
+.align_right { text-align: right; }
+
+.float_left { float: left; }
+.float_middle { float: center; }
+.float_right { float: right; }
+
+.color_dark {
+	background: #131313;
+	color:#EEEEEE;
+}
+
+.color_light {
+	background: #131313;
+	color:#EEEEEE;
+}
+
+	.menu, .link_contact {
+		font-size:1em;
+		float:left;
+		text-transform: uppercase;
+		margin:1.9em 0;
+	}
+	.menu a {
+		margin:0.3em;
+	}
+
+	.link_contact a {
+		font-size: 1.5em;
+		font-weight: bold;
+		letter-spacing: 0.1em;
+	}
+
+
+.absolute {
+	position:absolute;
+}
+
+.size_body {
+	width:780px;
+	display: block;
+	margin:0 auto;
+}
+
+footer {
+	font-size: 0.7em;
+}
+
+footer .align_middle a {
+	margin:0 0.1em;
+}
+
+footer .align_right a {
+	margin-left:0.5em;
+}
+
+.border_top {
+	border-top:1px solid #666666;
+	padding:1em 0 1em;
+}
+
+.clear {
+	clear:both;
+}
+
+article.box {
+	display:block;
+	border:1px solid #DEDEDE;
+	box-shadow: 0px 2px 2px #4F4F4F;
+	font-size: 0.9em;
+	clear:right;
+	background:#CECECE;
+	margin-bottom:3px;
+}
+
+.content p, .content h2, .content h3 {
+	padding:0 15px 15px;
+}
+
+article.grid_3 {
+	width:250px;
+}
+
+article.separator {
+	margin:0 10px;
+}
+
+h2 {
+	margin:0 0 1em;
+}
+h3 {
+	margin:0;
+}
+
+footer .size_body {
+	margin-top:3em;
+	margin-bottom: 1em;
+}
+
+
+
+#logo {
+	margin:1em 1em 0;
+}
+
+.link_dotted a {
+	border-bottom:1px dotted #333;
+}
+
+.horizontal_space_2 * {
+	margin:0.5em 0;
+	padding:0.1em 0;
+}
+
+.margin_bottom {
+	margin-bottom: 5em;
+}
+
+.overflow_auto {
+	overflow: auto;
+}
+
+.content .image {
+	height:50px;
+	overflow:hidden;
+	transition: height 0.5s;
+	-moz-transition: height 0.5s; /* Firefox 4 */
+	-webkit-transition: height 0.5s; /* Safari and Chrome */
+	-o-transition: height 0.5s; /* Opera */
+}
+.content .image img {
+	position: relative;
+	top:-100px;
+	transition: top 1s;
+	-moz-transition: top 1s; /* Firefox 4 */
+	-webkit-transition: top 1s; /* Safari and Chrome */
+	-o-transition: top 2s; /* Opera */
+}
+
+.content .image:hover {
+	height:255px;
+	transition: height 0.5s;
+	-moz-transition: height 0.5s; /* Firefox 4 */
+	-webkit-transition: height 0.5s; /* Safari and Chrome */
+	-o-transition: height 0.5s; /* Opera */
+}
+.content .image img:hover {
+	position: relative;
+	top:0px;
+	transition: top 1s;
+	-moz-transition: top 1s; /* Firefox 4 */
+	-webkit-transition: top 1s; /* Safari and Chrome */
+	-o-transition: top 2s; /* Opera */
+}
+
