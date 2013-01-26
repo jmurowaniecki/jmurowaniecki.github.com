@@ -181,27 +181,35 @@ footer .size_body {
 }
 
 .content .image {
-	height:100px;
+	height:50px;
 	overflow:hidden;
+	transition: height 0.5s;
+	-moz-transition: height 0.5s; /* Firefox 4 */
+	-webkit-transition: height 0.5s; /* Safari and Chrome */
+	-o-transition: height 0.5s; /* Opera */
 }
 .content .image img {
 	position: relative;
 	top:-100px;
+	transition: top 1s;
+	-moz-transition: top 1s; /* Firefox 4 */
+	-webkit-transition: top 1s; /* Safari and Chrome */
+	-o-transition: top 2s; /* Opera */
 }
 
 .content .image:hover {
 	height:255px;
-	transition: height 1s;
-	-moz-transition: height 1s; /* Firefox 4 */
-	-webkit-transition: height 1s; /* Safari and Chrome */
-	-o-transition: height 1s; /* Opera */
+	transition: height 0.5s;
+	-moz-transition: height 0.5s; /* Firefox 4 */
+	-webkit-transition: height 0.5s; /* Safari and Chrome */
+	-o-transition: height 0.5s; /* Opera */
 }
 .content .image img:hover {
 	position: relative;
 	top:0px;
-	transition: top 2s;
-	-moz-transition: top 2s; /* Firefox 4 */
-	-webkit-transition: top 2s; /* Safari and Chrome */
+	transition: top 1s;
+	-moz-transition: top 1s; /* Firefox 4 */
+	-webkit-transition: top 1s; /* Safari and Chrome */
 	-o-transition: top 2s; /* Opera */
 }
 
