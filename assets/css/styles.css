@@ -188,6 +188,7 @@ footer .size_body {
 	-webkit-transition: height 0.5s; /* Safari and Chrome */
 	-o-transition: height 0.5s; /* Opera */
 }
+
 .content .image img {
 	position: relative;
 	top:-100px;
@@ -197,14 +198,14 @@ footer .size_body {
 	-o-transition: top 2s; /* Opera */
 }
 
-.content .image:hover {
+.content:hover .image {
 	height:255px;
 	transition: height 0.5s;
 	-moz-transition: height 0.5s; /* Firefox 4 */
 	-webkit-transition: height 0.5s; /* Safari and Chrome */
 	-o-transition: height 0.5s; /* Opera */
 }
-.content .image img:hover {
+.content:hover .image img {
 	position: relative;
 	top:0px;
 	transition: top 1s;
@@ -212,4 +213,3 @@ footer .size_body {
 	-webkit-transition: top 1s; /* Safari and Chrome */
 	-o-transition: top 2s; /* Opera */
 }
-
