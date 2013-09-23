@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8">
-	
+
 		<title>John Murowaniecki's Website</title>
 
 		<style type="text/css" media="screen">
@@ -114,6 +114,28 @@
 				font-size:1.3em;
 				font-weight:bold;
 			}
+
+			@media screen and (min-width: 900px) {
+				#image {
+					right:-300px;
+				}
+			}
+
+			@media screen and (max-width: 900px) {
+				#image {
+					position:relative;
+					display:block;
+					z-index:-1;
+					-webkit-transform:none;
+					text-align:center;
+				}
+				.ascii pre {
+					font-family:monospace;
+					text-shadow:0px 0px 5px #AAA;
+					letter-spacing:1px;
+					font-size:0.8em;
+				}
+			}
 		</style>
 	</head>
 	<body>
@@ -126,6 +148,61 @@
 			<span class="h5 centre">JS (NodeJS, NoSQL/MongoDB, Express, Require),</span>
 			<span class="h6 centre">Clipper/AdvPL, C, Linux/BSD (Samba, RSYNC, Firewalls),</span>
 			<span class="h7 centre">MySQL, PostgreSQL, VB/ASP/.Net and Polish Candymaker.</span>
+			<div id="image" class="ascii">
+				<pre id="picture">
+	===~=~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~=~~~~~~=~~============++++?+?????????O
+	==~~~~~~~~~~~~~~~~:~~~~~~::~:I~~~~IOMMMMMMMMND8$?~~~~~~=========++++++?+???????O
+	==~~~~~~~~~~~~~~~~~:~:::::~:$$MMMMMMMMMMMMMMM8MMMM?~~~~~~=======+=++++++?++????O
+	~=~~~~~~~~~~~~~::::::::::~+NMMMMMMMMMMMMMMMMMMMNNOMD=~~~~~======+==+++++?+?+???O
+	~~~~~~~~~~~~~::~:::::::IINMMMMMMMMMMNMMMMMMMMMMMMD~ZN?7~~=~~========++++++?+???O
+	~~~~~~~~~~~~::::::::~:::MMMMMMMMMMMMMMMMMMMMMMMMMMD+=8?N~~~~=========++++++???+O
+	~~~~~~:~~~~::::~~:::~::8MMMMMMMMMMMMMMMMMMMMMMMMMMMM~~:::~~~~~~~========+++++??O
+	~~~~~~:~~:::::::::::~:MMMMMMMNZ$II$IZODDMNMMMMMMMMMMM?=~~~~~~~~~=======++++++++Z
+	~~~~~::~:~~::::::::::MMMMMD$I?+====?++?+NZDMMMMMMNMMMM$~~~~~~~~~=~~=====+++++?+Z
+	~~~~~~::~~::::::::::MMMMMN$I??+==~~~~~+?+?$NMMMNMMMMMMM$~~~~~~~~~~~======++++++O
+	~~~~~~::::~:::~::::+MMMMMZ7?+++==~~~~~~++++7$NMMOMNNMMMM:~:~~~~~~~=~=====+=++++Z
+	~~~~~~::::::::::::~8MMMM877I?+==~~::::::~~~===+$MMD8MMMM::~~~~~~~~=~~=======+++O
+	~~~~~~~~:::::::::,:MMMMMZ$I???+===+===~~==+++??IZ7ZO8MMM::::~~~~~~~~~======++++Z
+	~~~~~~~:~=:::::::::MMMMMZ77$DMMMNNDZI+++?7ODNMMMMDZ$ZDMMD:::~~:~~~~~~======+==+Z
+	~~~~~~~~:::::::::::DMMMMZ$NMNDDDNNNDZ?=~+$8DDD8O8NNNZ8MMM:::::~~~~~~~~~======++Z
+	~~~~~~~::::::::::::DMMMN$ZD88O$ZO8DND?=:=$DDNNOOZZ8DOZMMM:::::~~~~~~~~=====++++Z
+	~~~~~~:::::::::::,:8MMMD$ODDDZ8MMMMMN?~~+$DMNMMMMMD8O$MMM:::::::~~~~~~~====+==+Z
+	~~~~~~~~~::::::::::$MMM877ZOZ888OZZ7I+~~+I?7$OOO88$7I$OMM:::::::~~~~~~~=~=====+Z
+	~~~~~~~~:::::::::::$MMM87?+=?$ZZI+=+I=::=7I?==??++++?IZMD:::::::::~~~~~========Z
+	~~~~~~~~~::::::::::=MNMD7?+=~~~~::~++?==?I7?=~~~~~++?7OMN:::::::~~~~~~~========Z
+	~~=~~~~~~~::::::::::ODMD$I?++=~:::~+$OZOOOI+=:~~~=+?I7ZM8::::::::~~~~~~~~~===++Z
+	~~~~~~~~~::::::,::,:$8MN7I?+++~~~~:7NNNDDDNO=~===++?I7$MO:::::::~~~~~~~=~======Z
+	~~~~~~~~:~~::::::,:,$IDN$7I??+++=~=?NMMNNMD$====+??II$ZNO::::::::~~~~~~~~======Z
+	==~~~~~~::::::::::,,:8OD$7I??+++7O8N8MMDNMMN8OI+???77$ONI::::::~~:~~~~~~~======Z
+	===~~~~~::~::::::::::?OMZ$7III7ZMMMMMNDODNNDMMNN?I7$ZZ8M::::::::::~~~~~~~~=====Z
+	=~=~~~=~~~::::::::::::,D8$$$77ZNMM8I?7$7$I?I8MMMO7$ZOO8M:::::::::~~~~~~========Z
+	=~=~~~~~~~~:::::::::::,=8OZ$$$OMN7?7Z8NMN8$7??DMNZZOO8O8::::::::~~~~~~=========Z
+	====~~~~~:~:::::::::::,:MDO888NMD$I77OMNOZZ7$78MM8D8DDM=::::::~::~~~~~~=======+Z
+	=====~~~~~~~:~~:::::::::DMMNNMMMNDZ?OO8NOD8$8DNMMMMDMMO:::::::::~~~~~~~~======+Z
+	====~~~~~~~~~~:::::~::::=MMMMMMMMMNNNNMMMMNMMMMMMMMMMM+:::::~~~~~~~~~~~====+==+Z
+	====~~~=~~~~~~~::~::::::~+MMMMMMMMMMMMMMMMMMMMMMMMMMN::::::~~~~~~~~~~~~======++Z
+	======~=~~~~~~~~~~:~::::::MMMMMMMMMMMMMMMMMMMMMMMMMMI:::::::~:~~~~~~~~=====+=++Z
+	===~===+=~~~~~~~~~~~~~::::DMMMMMMMMMMMMMMMMMMMMMMMMM~~:::::~~~~~~~~~====~==++++Z
+	+=======~=~=~=~~~~~~~:~~::ONMMMMMMMMMMMMMMMMMMMMMMMD::::~:~~~~~~~~==~======++=+O
+	=++====~=~===~~~~~~~~~~~~:ZDNMMMMMMMMMMMMMMMMMMMMNDD=~::~~~~~~~~~~=======++++++Z
+	+++========~~=~~~~~~~~~~::Z8NNMMMMMMMMMMMMMMMMMNNDD8ZN~~=~~~~=~=~=~===++===++?+O
+	+++=+=========~==~~~~~~~$888DDNNMMMMMMMMMMMNNNNNND88NON~~~~~~=~=====+==++++++??O
+	++++=+==========~~=~~~~?ONNDDDDNNMMMMMMMMNNNNNNDDDDMMNMM~~~~=======+==++++++???O
+	?==+++++=============~ZNNMMDDDDDDDNNNNNNNNNNNDNNNMMMNMMNMN==========+=++++++???O
+	+?++++++++++=+=====+ONNMMMMMDDDDDDNNNNNNNNNDDDDNMMMMMMN$MNM=======+==+++++?????O
+	+???+++++++++==+=+NNNMMMMMMM8DDDDDDDDDNNNNDDDDDMMMMMMMMNM8MN8==+++++++++++?????O
+	???+??+++++++?+=NDNNMMMMMMMMM88D8DDDDDDDDDD8DDDMMMMMMMMMM8MDMMDN+++?+??????????O
+	?????????+IMMMNMZMMMMMMMMMMMMDD8OOO8DDDDD8888DMMMMMMMMMMMMMDMMDMMNMM++?+????IIIO
+	+??I??OMMMMMMMDMNMMMMMMMDMM8MMM88$ZOO8888OO8MMMMMMMMMMMMMMMMMMNMMNMMMMM8???IIIIO
+	I?MMMNMMMMMMMOMMOMMMM8MM8MMDMMMMMDMMNMMDZZOMMMMNMM8MMMMMMMMMMMMMMMMMMMMMMMDNIIIO
+	MMMM8MMOMMOMMMMMMMMMMMMM8MMMMMMMMMMD$$7$ZDMMMMMMMMDMM8MMNMMMMMMMMMMMMMMMMMMMMMDO
+	MMMMMMMMMDMM8MMDMMMMMMMMMMMMMMMMMMMMM$Z7MMMNMMNMMMMMMNMMOMMMMMMMMMMMMNMMNMMDMMNM
+	MMMMMMMMMNMMDMMDMM8MM8MMMMMMMMM8MMNMM88MMMMMMM8MMNMMMMMMNMMMMMMMMMMMMNMMMMMDMMNM
+	MMMMMM8MMDMM8MMDMMMMMNMMMMMMMMMZMMMMMMMMMMNMMMMMMOMMMMMMMMMNMMMMMMMMMMMMDMMNMMNM
+	MMMMMMNMMMMMMMM8MM8MMMMMMMMMMMMNMMMMDMMMMMOMMMMMMNMMDMMMMMM8MMMMMMMMMNMMNMMNMMMM
+	MMMMMMNMMMMMMMMMMMDMMOMMMMMMMMMZMMMMMMMMMMNMMNMMMMMMOMMMMMMOMMMMMMMMMNMMMMMMMMMM
+				</pre>
+			</div>
 			<span class="h3 margin-60-top">Escolaridade</span>
 			<div class="margin-30-top resumee">
 				<p><b>Psicologia</b> UNISINOS - em andamento <i>(2012, agora)</i>.</p>
@@ -150,60 +227,26 @@
 			</div>
 		</div>
 
-		<div id="image" class="ascii">
-			<pre>
-===~=~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~=~~~~~~=~~============++++?+?????????O
-==~~~~~~~~~~~~~~~~:~~~~~~::~:I~~~~IOMMMMMMMMND8$?~~~~~~=========++++++?+???????O
-==~~~~~~~~~~~~~~~~~:~:::::~:$$MMMMMMMMMMMMMMM8MMMM?~~~~~~=======+=++++++?++????O
-~=~~~~~~~~~~~~~::::::::::~+NMMMMMMMMMMMMMMMMMMMNNOMD=~~~~~======+==+++++?+?+???O
-~~~~~~~~~~~~~::~:::::::IINMMMMMMMMMMNMMMMMMMMMMMMD~ZN?7~~=~~========++++++?+???O
-~~~~~~~~~~~~::::::::~:::MMMMMMMMMMMMMMMMMMMMMMMMMMD+=8?N~~~~=========++++++???+O
-~~~~~~:~~~~::::~~:::~::8MMMMMMMMMMMMMMMMMMMMMMMMMMMM~~:::~~~~~~~========+++++??O
-~~~~~~:~~:::::::::::~:MMMMMMMNZ$II$IZODDMNMMMMMMMMMMM?=~~~~~~~~~=======++++++++Z
-~~~~~::~:~~::::::::::MMMMMD$I?+====?++?+NZDMMMMMMNMMMM$~~~~~~~~~=~~=====+++++?+Z
-~~~~~~::~~::::::::::MMMMMN$I??+==~~~~~+?+?$NMMMNMMMMMMM$~~~~~~~~~~~======++++++O
-~~~~~~::::~:::~::::+MMMMMZ7?+++==~~~~~~++++7$NMMOMNNMMMM:~:~~~~~~~=~=====+=++++Z
-~~~~~~::::::::::::~8MMMM877I?+==~~::::::~~~===+$MMD8MMMM::~~~~~~~~=~~=======+++O
-~~~~~~~~:::::::::,:MMMMMZ$I???+===+===~~==+++??IZ7ZO8MMM::::~~~~~~~~~======++++Z
-~~~~~~~:~=:::::::::MMMMMZ77$DMMMNNDZI+++?7ODNMMMMDZ$ZDMMD:::~~:~~~~~~======+==+Z
-~~~~~~~~:::::::::::DMMMMZ$NMNDDDNNNDZ?=~+$8DDD8O8NNNZ8MMM:::::~~~~~~~~~======++Z
-~~~~~~~::::::::::::DMMMN$ZD88O$ZO8DND?=:=$DDNNOOZZ8DOZMMM:::::~~~~~~~~=====++++Z
-~~~~~~:::::::::::,:8MMMD$ODDDZ8MMMMMN?~~+$DMNMMMMMD8O$MMM:::::::~~~~~~~====+==+Z
-~~~~~~~~~::::::::::$MMM877ZOZ888OZZ7I+~~+I?7$OOO88$7I$OMM:::::::~~~~~~~=~=====+Z
-~~~~~~~~:::::::::::$MMM87?+=?$ZZI+=+I=::=7I?==??++++?IZMD:::::::::~~~~~========Z
-~~~~~~~~~::::::::::=MNMD7?+=~~~~::~++?==?I7?=~~~~~++?7OMN:::::::~~~~~~~========Z
-~~=~~~~~~~::::::::::ODMD$I?++=~:::~+$OZOOOI+=:~~~=+?I7ZM8::::::::~~~~~~~~~===++Z
-~~~~~~~~~::::::,::,:$8MN7I?+++~~~~:7NNNDDDNO=~===++?I7$MO:::::::~~~~~~~=~======Z
-~~~~~~~~:~~::::::,:,$IDN$7I??+++=~=?NMMNNMD$====+??II$ZNO::::::::~~~~~~~~======Z
-==~~~~~~::::::::::,,:8OD$7I??+++7O8N8MMDNMMN8OI+???77$ONI::::::~~:~~~~~~~======Z
-===~~~~~::~::::::::::?OMZ$7III7ZMMMMMNDODNNDMMNN?I7$ZZ8M::::::::::~~~~~~~~=====Z
-=~=~~~=~~~::::::::::::,D8$$$77ZNMM8I?7$7$I?I8MMMO7$ZOO8M:::::::::~~~~~~========Z
-=~=~~~~~~~~:::::::::::,=8OZ$$$OMN7?7Z8NMN8$7??DMNZZOO8O8::::::::~~~~~~=========Z
-====~~~~~:~:::::::::::,:MDO888NMD$I77OMNOZZ7$78MM8D8DDM=::::::~::~~~~~~=======+Z
-=====~~~~~~~:~~:::::::::DMMNNMMMNDZ?OO8NOD8$8DNMMMMDMMO:::::::::~~~~~~~~======+Z
-====~~~~~~~~~~:::::~::::=MMMMMMMMMNNNNMMMMNMMMMMMMMMMM+:::::~~~~~~~~~~~====+==+Z
-====~~~=~~~~~~~::~::::::~+MMMMMMMMMMMMMMMMMMMMMMMMMMN::::::~~~~~~~~~~~~======++Z
-======~=~~~~~~~~~~:~::::::MMMMMMMMMMMMMMMMMMMMMMMMMMI:::::::~:~~~~~~~~=====+=++Z
-===~===+=~~~~~~~~~~~~~::::DMMMMMMMMMMMMMMMMMMMMMMMMM~~:::::~~~~~~~~~====~==++++Z
-+=======~=~=~=~~~~~~~:~~::ONMMMMMMMMMMMMMMMMMMMMMMMD::::~:~~~~~~~~==~======++=+O
-=++====~=~===~~~~~~~~~~~~:ZDNMMMMMMMMMMMMMMMMMMMMNDD=~::~~~~~~~~~~=======++++++Z
-+++========~~=~~~~~~~~~~::Z8NNMMMMMMMMMMMMMMMMMNNDD8ZN~~=~~~~=~=~=~===++===++?+O
-+++=+=========~==~~~~~~~$888DDNNMMMMMMMMMMMNNNNNND88NON~~~~~~=~=====+==++++++??O
-++++=+==========~~=~~~~?ONNDDDDNNMMMMMMMMNNNNNNDDDDMMNMM~~~~=======+==++++++???O
-?==+++++=============~ZNNMMDDDDDDDNNNNNNNNNNNDNNNMMMNMMNMN==========+=++++++???O
-+?++++++++++=+=====+ONNMMMMMDDDDDDNNNNNNNNNDDDDNMMMMMMN$MNM=======+==+++++?????O
-+???+++++++++==+=+NNNMMMMMMM8DDDDDDDDDNNNNDDDDDMMMMMMMMNM8MN8==+++++++++++?????O
-???+??+++++++?+=NDNNMMMMMMMMM88D8DDDDDDDDDD8DDDMMMMMMMMMM8MDMMDN+++?+??????????O
-?????????+IMMMNMZMMMMMMMMMMMMDD8OOO8DDDDD8888DMMMMMMMMMMMMMDMMDMMNMM++?+????IIIO
-+??I??OMMMMMMMDMNMMMMMMMDMM8MMM88$ZOO8888OO8MMMMMMMMMMMMMMMMMMNMMNMMMMM8???IIIIO
-I?MMMNMMMMMMMOMMOMMMM8MM8MMDMMMMMDMMNMMDZZOMMMMNMM8MMMMMMMMMMMMMMMMMMMMMMMDNIIIO
-MMMM8MMOMMOMMMMMMMMMMMMM8MMMMMMMMMMD$$7$ZDMMMMMMMMDMM8MMNMMMMMMMMMMMMMMMMMMMMMDO
-MMMMMMMMMDMM8MMDMMMMMMMMMMMMMMMMMMMMM$Z7MMMNMMNMMMMMMNMMOMMMMMMMMMMMMNMMNMMDMMNM
-MMMMMMMMMNMMDMMDMM8MM8MMMMMMMMM8MMNMM88MMMMMMM8MMNMMMMMMNMMMMMMMMMMMMNMMMMMDMMNM
-MMMMMM8MMDMM8MMDMMMMMNMMMMMMMMMZMMMMMMMMMMNMMMMMMOMMMMMMMMMNMMMMMMMMMMMMDMMNMMNM
-MMMMMMNMMMMMMMM8MM8MMMMMMMMMMMMNMMMMDMMMMMOMMMMMMNMMDMMMMMM8MMMMMMMMMNMMNMMNMMMM
-MMMMMMNMMMMMMMMMMMDMMOMMMMMMMMMZMMMMMMMMMMNMMNMMMMMMOMMMMMMOMMMMMMMMMNMMMMMMMMMM
-			</pre>
-		</div>
+		<script type="text/javascript">
+		(function () {
+			var $$ = function (el) {
+					switch (el.charAt(0)) {
+						case '.':
+							return document.getElementsByClassName(el.substr(1));
+						break;
+						case '#':
+							return document.getElementById(el.substr(1));
+						break;
+						default:
+							return document.getElementsByTagName(el);
+						break;
+					}
+				},
+				n = 65;
+				interval = setInterval(function animate() {
+					$$('#picture').innerText = $$('#picture').innerText.replace(new RegExp(a = String.fromCharCode(n), 'g'), b = String.fromCharCode(n = n > 65 + 23 ? 65 : n + 3));
+			}, 5000);
+		})();
+		</script>
 	</body>
 </html>
