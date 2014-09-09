@@ -146,8 +146,31 @@
 			<span class="h3 centre">linux evangelist with desireable skills</span>
 			<span class="h4 centre">PHP (frameworks CodeIgniter e Laravel),</span>
 			<span class="h5 centre">JS (NodeJS, NoSQL/MongoDB, Express, Require),</span>
-			<span class="h6 centre">Clipper/AdvPL, C, Linux/BSD (Samba, RSYNC, Firewalls),</span>
-			<span class="h7 centre">MySQL, PostgreSQL, VB/ASP/.Net and Polish Candymaker.</span>
+			<span class="h6 centre">Clipper/AdvPL, C, Linux/BSD (Samba, RSYNC, iptables/*),</span>
+			<span class="h7 centre">MySQL, PostgreSQL, <s>VB/ASP/.Net</s> and Polish Candymaker.</span>
+			<span class="h3 margin-60-top">Escolaridade</span>
+			<div class="margin-30-top resumee">
+				<p><b>Ciências da Computação</b> UNILASALLE - retomado <i>(2014, agora)</i>.</p>
+				<p><b>Psicologia</b> UNISINOS - em trancado <i>(2012, 2014)</i>.</p>
+				<p><b>Ciências da Computação</b> UNILASALLE - trancado <i>(2004, 2007)</i>.</p>
+			</div>
+			<span class="h3 margin-60-top">Experiência profissional</span>
+			<div class="margin-30-top resumee">
+				<p><b>DoubleLeft</b> ago/13 à presente - PHP/MySQL, Linux, Python, <s>C#</s>.</p>
+				<p><b>Joy Interactive</b> mar/13 à ago/13 - PHP/MySQL, Linux, <s>Java</s>.</p>
+				<p><b>WebGlobal</b> jul/12 à mar/13 - PHP/MySQL, Linux.</p>
+				<p><b>Onze.me</b> mar/12 à jul/12 - PHP/MySQL, Linux.</p>
+				<p><b>Box 3</b> nov/10 à mar/12 - PHP/MySQL, Linux.</p>
+				<p><b>JPC</b> abr/10 à nov/10 - AdvPL, PHP, Ruby, MySQL, PostgreSQL, Linux, SQL Server.</p>
+				<p><b>Divex</b> fev/10 à mar/10 - PHP/MySQL.</p>
+				<p><b>Núcleo 49</b> out/09 à dez/09 - PHP/MySQL.</p>
+				<p><b>Bits IT</b> ago/09 à out/09 - PHP/MySQL.</p>
+				<p><b>Reweb</b> dez/07 à ago/09 - Visual Basic 6.0, PHP, ASP, MySQL, PostgreSQL.</p>
+				<p><b>UNILASALLE IGTec</b> set/05 à ago/06 - Linux, PHP/MySQL, PostgreSQL.</p>
+				<p><b>UNILASALLE / Helpdesk</b> mar/05 à set/05 - <s>Suporte Windows e</s> Linux</p>
+				<p><b>3º Batalhão de Suprimentos</b> jul/03 à fev/05 - Soldado Auxiliar QR, Classe I / QM 1174.</p>
+				<p><b>Digital TI</b> set/00 à nov/00 - <s>Visual Basic 6.0, Access</s>.</p>
+			</div>
 			<div id="image" class="ascii">
 				<pre id="picture">
 	===~=~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~=~~~~~~=~~============++++?+?????????O
@@ -203,43 +226,18 @@
 	MMMMMMNMMMMMMMMMMMDMMOMMMMMMMMMZMMMMMMMMMMNMMNMMMMMMOMMMMMMOMMMMMMMMMNMMMMMMMMMM
 				</pre>
 			</div>
-			<span class="h3 margin-60-top">Escolaridade</span>
-			<div class="margin-30-top resumee">
-				<p><b>Psicologia</b> UNISINOS - em andamento <i>(2012, agora)</i>.</p>
-				<p><b>Ciências da Computação</b> UNILASALLE - trancado <i>(2004, 2007)</i>.</p>
-			</div>
-			<span class="h3 margin-60-top">Experiência profissional</span>
-			<div class="margin-30-top resumee">
-				<p><b>DoubleLeft</b> ago/13 à presente - PHP (CodeIgniter), MySQL.</p>
-				<p><b>Joy Interactive</b> mar/13 à ago/13 - PHP (CodeIgniter), MySQL, Linux.</p>
-				<p><b>WebGlobal</b> jul/12 à mar/13 - PHP (CodeIgniter), MySQL, Linux.</p>
-				<p><b>Onze.me</b> mar/12 à jul/12 - PHP (CodeIgniter), MySQL, Linux.</p>
-				<p><b>Box 3</b> nov/10 à mar/12 - PHP (CodeIgniter), MySQL, Linux.</p>
-				<p><b>JPC</b> abr/10 à nov/10 - AdvPL, PHP, Ruby (Rails/Redmine), MySQL, PostgreSQL, SQL Server, Linux.</p>
-				<p><b>Divex</b> fev/10 à mar/10 - PHP (CodeIgniter), MySQL.</p>
-				<p><b>Núcleo 49</b> out/09 à dez/09 - PHP (CodeIgniter), MySQL.</p>
-				<p><b>Bits IT</b> ago/09 à out/09 - PHP (CodeIgniter), MySQL.</p>
-				<p><b>Reweb</b> dez/07 à ago/09 - Visual Basic 6.0, PHP (CodeIgniter), ASP, MySQL, PostgreSQL.</p>
-				<p><b>UNILASALLE IGTec</b> set/05 à ago/06 - Linux, PHP, MySQL, PostgreSQL.</p>
-				<p><b>UNILASALLE / Helpdesk</b> mar/05 à set/05 - Suporte Windows, Linux</p>
-				<p><b>3º Batalhão de Suprimentos</b> jul/03 à fev/05 - Soldado Auxiliar QR, Classe I / QM 1174.</p>
-				<p><b>Digital TI</b> set/00 à nov/00 - Visual Basic 6.0, Access.</p>
-			</div>
 		</div>
 
 		<script type="text/javascript">
 		(function () {
-			var $$ = function (el) {
+			var interval, a, b, $$ = function (el) {
 					switch (el.charAt(0)) {
 						case '.':
 							return document.getElementsByClassName(el.substr(1));
-						break;
 						case '#':
 							return document.getElementById(el.substr(1));
-						break;
 						default:
 							return document.getElementsByTagName(el);
-						break;
 					}
 				},
 				n = 65;
@@ -247,8 +245,6 @@
 					$$('#picture').innerText = $$('#picture').innerText.replace(new RegExp(a = String.fromCharCode(n), 'g'), b = String.fromCharCode(n = n > 65 + 23 ? 65 : n + 3));
 			}, 5000);
 		})();
-		</script>
-		<script type="text/javascript">
 
 		var _gaq = _gaq || [];
 			_gaq.push(['_setAccount', 'UA-37505908-1']);
