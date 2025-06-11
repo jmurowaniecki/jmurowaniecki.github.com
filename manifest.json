@@ -3,7 +3,7 @@
     "short_name": "Repertório Rebob.ini",
     "display": "fullscreen",
     "orientation": "landscape",
-    "start_url": "/rebob.ini",
+    "start_url": "/Rebob.ini",
     "theme_color": "#666666",
     "background_color": "#131313",
     "icons": [
