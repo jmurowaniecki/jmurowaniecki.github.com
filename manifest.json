@@ -1,8 +1,8 @@
 {
-    "name": "Wordle",
-    "short_name": "Wordle",
+    "name": "Repertório Rebob.ini",
+    "short_name": "Repertório Rebob.ini",
     "display": "fullscreen",
-    "orientation": "portrait",
+    "orientation": "landscape",
     "start_url": "/",
     "theme_color": "#666666",
     "background_color": "#131313",
